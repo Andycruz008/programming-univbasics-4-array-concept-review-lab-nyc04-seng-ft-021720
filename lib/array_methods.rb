@@ -18,7 +18,7 @@ end
 def find_max_value(array)
 
 length = array.length
-max 
+max = 0
 
 length.times do |index|
   if array[index] > max
