@@ -9,8 +9,10 @@ length.times do |index|
   end
 end  
 
-if index = array.length
-  return
+  if index = array.length
+    return
+  end
+
 end
 
 
