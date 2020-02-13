@@ -6,7 +6,7 @@ length.times do |index|
 if array[index] = value_to_find
     return index
  end
-  
+end  
 end
 
 
