@@ -4,12 +4,13 @@ length = array.length
 
 length.times do |index|
   
-if array[index] == value_to_find
+  if array[index] == value_to_find
     return index
- end
- 
+  end
 end  
 
+if index = array.length
+  return
 end
 
 
